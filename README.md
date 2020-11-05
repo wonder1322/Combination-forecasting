@@ -5,7 +5,7 @@
 
 ### 1.1平均误差 & 平均绝对误差
 
-平均误差：$ME= \dfrac{1}{N} \sum^N_{t=1}e_t= \dfrac{1}{N} \sum^N_{t=1}(x市_t-\hat x_t)$
+平均误差：$ME= \dfrac{1}{N} \sum^N_{t=1}e_t= \dfrac{1}{N} \sum^N_{t=1}(x_t-\hat x_t)$
 
 平均绝对误差：$MAE= \dfrac{1}{N} \sum^N_{t=1} |e_t|= \dfrac{1}{N} \sum^N_{t=1}|x_t-\hat x_t|$
 
@@ -146,4 +146,3 @@ python model.py -i example/example1.xlsx
 python model.py -i example/example2.xlsx  -s yes
 
 ```
-
