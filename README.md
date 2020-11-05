@@ -1,11 +1,12 @@
-[TOC]
+
 # Combination-forecasting
 # 组合预测
 ## 1.预测精度
 
 ### 1.1平均误差 & 平均绝对误差
 
-平均误差：$ME= \dfrac{1}{N} \sum^N_{t=1}e_t= \dfrac{1}{N} \sum^N_{t=1}(x市_t-\hat x_t)$
+平均误差：![](http://latex.codecogs.com/gif.latex? ME= \dfrac{1}{N} \sum^N_{t=1}e_t= \dfrac{1}{N} \sum^N_{t=1}(x市_t-\hat x_t))
+$ME= \dfrac{1}{N} \sum^N_{t=1}e_t= \dfrac{1}{N} \sum^N_{t=1}(x市_t-\hat x_t)$
 
 平均绝对误差：$MAE= \dfrac{1}{N} \sum^N_{t=1} |e_t|= \dfrac{1}{N} \sum^N_{t=1}|x_t-\hat x_t|$
 
