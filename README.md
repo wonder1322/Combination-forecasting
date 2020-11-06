@@ -25,3 +25,4 @@ python model.py -i example/example2.xlsx  -s yes
 python model.py -i example/example2.xlsx  -s yes -o res.txt
 
 ```
+原始数据请使用excel,误差值列名用e标识,如e1,e2,...;诱导值列名用a标识,如a1,a2,...,
